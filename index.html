@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi primera página</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="card">
+    <header class="top">
+      <div>
+        <div class="badge"><span class="dot"></span> Electrónica • Primer semestre</div>
+        <h1>Mi nombre es: <span class="name">TU_NOMBRE_AQUÍ</span></h1>
+        <p>Esta es mi primera página web publicada con <strong>GitHub Pages</strong>.</p>
+      </div>
+
+      <div class="badge" title="Fecha automática desde el navegador">
+        📅 <span id="fecha"></span>
+      </div>
+    </header>
+
+    <section class="grid">
+      <div class="panel">
+        <h2>Sobre este proyecto</h2>
+        <p>
+          El objetivo es aprender a crear un archivo <strong>index.html</strong>, subirlo a GitHub
+          y publicarlo como sitio web.
+        </p>
+
+        <div class="chiprow" aria-label="Temas">
+          <div class="chip">Tema: <strong>Introducción a HTML</strong></div>
+          <div class="chip">Entrega: <strong>GitHub Pages</strong></div>
+          <div class="chip">Carrera: <strong>Electrónica</strong></div>
+        </div>
+
+        <div class="btnrow">
+          <!-- Reemplaza el href por el link de tu repo -->
+          <a class="btn" id="repoLink" href="https://github.com/TU_USUARIO/TU_REPO" target="_blank" rel="noopener">
+            🔗 Mi repositorio
+          </a>
+
+          <button class="btn btn2" id="btnDetalles" type="button">
+            ⚡ Ver detalles
+          </button>
+        </div>
+      </div>
+
+      <div class="panel" id="extra">
+        <h2>Checklist rápido</h2>
+        <pre class="mono">1) Cambia TU_NOMBRE_AQUÍ
+2) Sube index.html, styles.css y app.js
+3) Settings → Pages
+4) Branch: main (root)
+5) Abre tu URL publicada</pre>
+      </div>
+    </section>
+
+    <footer>
+      Hecho por <strong>TU_NOMBRE_AQUÍ</strong> • Proyecto 1 • GitHub Pages
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
